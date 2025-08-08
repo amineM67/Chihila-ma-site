@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CHIHILA MA — La puissance a une origine</title>
+  <meta name="description" content="CHIHILA MA — Marque automobile haut de gamme. Modèle MAC7.">
+  <style>
+    :root{
+      --bg:#0a0a0c; --text:#ededed; --muted:#b9bac6; --line:#1b1b22; --card:#121217;
+    }
+    *{box-sizing:border-box} html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6}
+    .wrap{max-width:1200px;margin:0 auto;padding:24px}
+    header{text-align:center;padding:28px 0;border-bottom:1px solid var(--line)}
+    header img{width: 360px; max-width: 90%; height:auto; display:block; margin:0 auto; filter: drop-shadow(0 10px 24px rgba(0,0,0,.5));}
+    .section{padding:28px 0;border-bottom:1px solid var(--line)}
+    h1{font-size:clamp(28px,4vw,46px);margin:6px 0 4px;letter-spacing:.02em;text-align:center}
+    p.lead{color:var(--muted);text-align:center;margin:0 auto 8px;max-width:760px}
+    .grid{display:grid;grid-template-columns:1fr;gap:18px;margin-top:16px}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,0));border:1px solid var(--line);border-radius:16px;overflow:hidden}
+    .card img{display:block;width:100%;height:auto}
+    .specs{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:14px}
+    .spec{background:var(--card);border:1px solid var(--line);padding:14px;border-radius:12px;text-align:center}
+    .spec span{display:block;color:var(--muted);font-size:.9rem}
+    footer{padding:24px 0;color:var(--muted);text-align:center}
+    @media (min-width:900px){ .grid{grid-template-columns:repeat(3,1fr)} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="assets/logo_chihila_ma.jpg" alt="Logo CHIHILA MA (chrome)">
+    </header>
+
+    <section class="section">
+      <h1>CHIHILA MAC7 — SUV sportif haut de gamme</h1>
+      <p class="lead">Design agressif, présence imposante. ADN 100 % algérien dans l'esprit — sans symboles. Rendus finaux en cours, visuels provisoires ci‑dessous.</p>
+      <div class="specs">
+        <div class="spec"><strong>V6 3.0L Turbo</strong><span>Moteur essence</span></div>
+        <div class="spec"><strong>360 ch</strong><span>Puissance cible</span></div>
+        <div class="spec"><strong>8 rapports</strong><span>Boîte automatique</span></div>
+        <div class="spec"><strong>AWD</strong><span>Transmission intégrale</span></div>
+      </div>
+      <div class="grid">
+        <div class="card"><img src="assets/mac7_front.jpg" alt="MAC7 — vue avant 3/4 (provisoire)"></div>
+        <div class="card"><img src="assets/mac7_side.jpg" alt="MAC7 — profil latéral (provisoire)"></div>
+        <div class="card"><img src="assets/mac7_rear.jpg" alt="MAC7 — vue arrière (provisoire)"></div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <p class="lead">Contact projets / partenariats : <a href="mailto:aminechihila@gmail.com">aminechihila@gmail.com</a></p>
+    </section>
+
+    <footer>
+      © 2025 CHIHILA. Tous droits réservés — Créé par Mohamed‑Amine Chihila.
+    </footer>
+  </div>
+</body>
+</html>
